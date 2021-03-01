@@ -2,7 +2,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  display: flexbox;
+  display: flex;
   background: linear-gradient(to left, rgba(7,27,82,1) 0%, rgba(0,128,128,1) 100%);
 }
 
@@ -15,4 +15,26 @@ h1 {
   text-align: center;
   color: rgb(22, 204, 165);
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+img {
+  max-width: auto;
+  max-height: 100px;
+}
+
+
+.cardlist {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+
+}
+
+.scroll {
+  width: 100vw;
+}
+
+.card {
+  width: 200px;
+  height: 250px;
 }

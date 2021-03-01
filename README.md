@@ -1,5 +1,5 @@
-This is a little project I completed following the "Complete Web Developer in 2020 Zero to Mastery" course.
-It features a simple React app that interacts with an API.
+A little project I completed following the "Complete Web Developer in 2020 Zero to Mastery" course.
+It features a simple React app that interacts with an API and relies on Hooks.
 
 # Getting Started with Create React App
 

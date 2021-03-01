@@ -1,10 +1,9 @@
 import React from 'react'
 import Card from './Card'
-import { robots } from './robots'
 
 const CardList = ({robots}) => {
     return (
-        <div>
+        <div className='cardlist'>
             {robots.map((user, i) => {
                 return(
                     <Card 
